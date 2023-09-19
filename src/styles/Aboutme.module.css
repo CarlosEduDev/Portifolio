@@ -1,0 +1,212 @@
+.aboutMe{
+   border: 3px solid rgb(9, 165, 237);
+   width: 100%;
+   max-width: 1060px;
+   margin-left: 12rem;
+   border-radius: 10px;
+}
+
+.content{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+
+.homeMe{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   border: 3px solid rgb(3, 164, 110);
+   border-radius: 3px;
+   margin-top: 3.5rem;
+}
+
+.saudation{
+   margin-left: 1rem;
+}
+
+.saudation p{
+   margin-bottom: 1rem;
+   margin-top: 8px;
+   font-size: 16.5px;
+}
+
+.Linkedin{
+   text-decoration: none;
+   color: rgb(74, 130, 233);
+   font-size: 18px;
+   margin-right: 1rem;
+}
+
+.Github{
+   text-decoration: none;
+   color: rgb(1, 2, 3);
+   font-size: 18px;
+   margin-left: 2.5rem;
+}
+
+.me{
+   font-family: 'poppins';
+   letter-spacing: 2px;
+}
+
+.photo{
+   width: 200px;
+   height: 190px;
+   padding: .4rem;
+   margin: 1.4rem 1rem;
+   border-radius: 50%;
+   border: rgb(91, 91, 229) 2px solid;
+}
+
+
+.aboutMe{
+   margin-top: 2rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.border_top{
+   width: 25vw;
+   border-top: 3px solid rgb(57, 57, 147);
+   margin-top: 10rem;
+}
+.resume {
+   margin-top: 3rem;
+   margin-bottom: 3rem;
+   width: 38rem;
+}
+
+.resume h3{
+   margin-left: 16rem;
+   padding-bottom: 1rem;
+}
+
+.why{
+   padding-bottom: 3rem;
+   width: 690px;
+}
+
+.why h3{
+   margin-left: 16rem;
+   margin-bottom: 1rem;
+}
+
+
+
+.skills{
+   margin-top: 3rem;
+   margin-bottom: 3rem;
+   width: 690px;
+}
+
+.skills h3{
+   margin-left: 16rem;
+   padding-bottom: 1rem;
+}
+
+.skills ul{
+   list-style: none;
+}
+
+/* Smartphones */
+@media screen and (min-width: 425px) and (max-width: 600px) {
+   .homeMe{
+      width: 97vw;
+      margin-left: -1rem;
+   }
+   .homeMe .Linkedin{
+      margin-left: 2.5rem;
+   }
+   .saudation{
+      margin-left: 2rem;
+   }
+   .aboutMe{
+      width: 97vw;
+      margin-left: -1rem
+   }
+   .resume{
+      width: 23rem;
+      margin-left: 1rem;
+   }
+   .resume h3{
+      margin-left: 3rem;
+   }
+   .why{
+      width: 24rem;
+      margin-left: 2rem
+   }
+   .why h3{
+      margin-left: 2rem;
+   }
+   
+   .skills{
+      width: 34rem;
+      margin-right: -1rem;
+   }
+   .skills h3{
+      margin-left: 8rem;
+   }
+   .skills ul{
+      margin-left: 6rem;
+   }
+ }
+ 
+ /* TABLETS - DESKTOP*/
+@media screen and (min-width: 625px) and (max-width: 700px){
+   .homeMe{
+      width: 120vw;
+      margin-left: -1rem;
+   }
+   .aboutMe{
+      margin-left: 6rem;
+   }
+   .resume{
+      width: 32rem;
+   }
+   .resume h3{
+      margin-left: 10rem;
+   }
+   .why{
+      margin-left: 12rem;
+   }
+   .why h3{
+      margin-left: 7rem;
+   }
+   .skills{
+      width: 32rem;
+   }
+   .skills h3{
+      margin-left: 7rem;
+   }
+}
+
+/* DESKTOPS */
+@media screen and (min-width: 725px) and (max-width: 800px){
+   .saudation{
+      width: 86vw;
+   }
+   .aboutMe{
+      margin-left: 0;
+      width: 43rem;
+   }
+   .resume{
+      width: 32rem;
+   }
+   .resume h3{
+      margin-left: 10rem;
+   }
+   .why{
+      margin-left: 12rem;
+   }
+   .why h3{
+      margin-left: 7rem;
+   }
+   .skills{
+      width: 32rem;
+   }
+   .skills h3{
+      margin-left: 7rem;
+   }
+}

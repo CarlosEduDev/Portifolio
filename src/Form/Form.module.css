@@ -1,0 +1,118 @@
+.form h4{
+   padding-top: 1rem;
+   text-align: center;
+   letter-spacing: 1px;
+}
+
+.form form{
+   padding: 2rem 3rem;
+   margin-top: 2rem;
+   display: flex;
+   flex-direction: column;
+   background-color:  rgb(74, 112, 139);
+   border-radius: 20px;
+   width: 50rem;
+}
+
+.form span{
+   margin-left: .2rem;
+   padding: .2rem;
+}
+
+.form input{
+   width: 44rem;
+   height: 3rem;
+   margin-bottom: 1rem;
+   border: none;
+   border: 1px solid black;
+   border-radius: 5px;
+   background-color: rgb(142, 189, 223);
+   padding: 1rem;
+   font-size: 14px;
+} /*rgb(135, 245, 245);*/
+
+.form input::placeholder{
+   color: rgb(73, 72, 72);
+}
+
+.form textarea{
+   padding: 1rem;
+   background-color: rgb(142, 189, 223);
+   height: 10rem;
+   border: 1px solid black;
+   border-radius: 5px;
+   outline: none;
+   resize: none;
+}
+
+.form textarea::placeholder{
+   color: rgb(67, 66, 66);
+}
+
+.form button{
+   width: 18rem;
+   height: 3rem;
+   margin-top: 1rem;
+   margin-left: 12.5rem;
+   cursor: pointer;
+   background-color: rgb(71, 188, 180);
+   border: 1px solid black;
+   box-shadow: 2px 2px 1px rgb(75, 75, 75) ;
+   font-size: 16px;
+   border-radius: 6px;
+   transition: .3s ease-in;
+}
+
+.form button:hover{
+   background-color: rgb(36, 141, 83);
+   
+}
+
+/* Smartphones */
+@media screen and (min-width: 425px) and (max-width: 600px){
+   .form form{
+      width: 28rem;
+      margin-left: 4rem;
+   }
+   .form input {
+      width: 22rem;
+   }
+   .form button{
+      margin-left: 5.5rem;
+      width: 10rem;
+
+   }
+   .form h4{
+      margin-left: 3rem;
+   }
+}
+
+/* TABLETS - DESKTOP*/
+@media screen and (min-width: 625px) and (max-width: 700px){
+   .form form{
+      margin-left: 10rem;
+      width: 40rem;
+   }
+   .form h4{
+      margin-left: 12rem;
+   }
+   .form input{
+      width: 34rem;
+   }
+   .form button{
+      margin-left: 8rem;
+   }
+  }
+
+  /* DESKTOP */
+  @media screen and (min-width: 725px) and (max-width: 800px){
+   .form form {
+      width: 39rem;
+   }
+   .form input{
+      width: 33rem;
+   }
+   .form button{
+      margin-left: 7.5rem;
+   }
+ }

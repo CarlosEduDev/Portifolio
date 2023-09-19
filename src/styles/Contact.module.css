@@ -1,0 +1,50 @@
+.contact{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+}
+
+.contact p{
+   font-size: 17px;
+}
+
+.footer ul{
+   list-style: none;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   font-size: 1.8rem;
+   margin: 1rem;
+   margin-top: 2.5rem;
+}
+
+.Github {
+   color: rgb(0, 0, 0);
+   margin-right: 3rem;
+   font-size: 2rem;
+}
+
+.Linkedin{
+   color: rgb(35, 101, 245);
+   font-size: 2rem;
+}
+
+@media screen and (min-width: 425px) and (max-width: 600px){
+   .footer{
+      margin-left: 4rem;
+   }
+   .contact h2, .contact p {
+      margin-left: 2rem;
+   }
+}
+
+/* TABLET - DESKTOP */
+@media screen and (min-width: 625px) and (max-width: 700px){
+   .contact h2, .contact p{
+      margin-left: 12rem;
+   }
+   .footer{
+      margin-left: 10rem;
+   }
+  }

@@ -1,0 +1,32 @@
+.menu {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 1rem;
+   gap: 3rem;
+   background-color: rgb(57, 57, 86);
+   position: fixed;
+   width: 100%;
+}
+
+.menu li{
+   list-style: none;
+}
+
+.menu a{
+   text-decoration:none ;  /*tira o sublinhado*/
+   color: #fff;
+   font-size: 17px;
+}
+
+.menu button{
+   background-color: #343434;
+   color: #fff;
+   width: 7.5rem;
+   height: 2.5rem;
+   cursor: pointer;
+   border: none;
+   border-radius: 8px;
+   left: 3rem;
+}
+

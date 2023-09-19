@@ -1,0 +1,114 @@
+.projects_area{
+  padding-bottom: 3rem;
+}
+
+.projects_area button{
+  background-color: rgb(63, 228, 219);
+  width: 10rem;
+  height: 2rem;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.projects_area h3{
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.projects_area p{
+  padding: 1rem;
+  text-align: center;
+}
+
+.button_repo{
+  background-color: rgb(63, 228, 219);
+  width: 10rem;
+  height: 2.5rem;
+  margin-left: 40rem;
+  margin-bottom: 5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button_repo a {
+  width: 2rem;
+  line-height: 2rem;
+}
+
+
+.project_item {
+   width: 100%;
+   max-width: 20rem;
+   padding-right: 2rem;
+ }
+ 
+ .img_projects {
+   width: 100%;
+   height: auto;
+   border: 5px solid #6aa4d3;
+   border-radius: 10px;
+   transition: .5s;
+ }
+
+ .img_projects:hover{
+   opacity: .6;
+   transform: translateY(-5px);
+ }
+
+ .card_projects{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1.5em 2.1em;
+  justify-content: space-between;
+
+ }
+
+ /* Smartphones */
+ @media screen and (min-width:425px) and (max-width: 600px) {
+  .card_projects{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .project_item button{
+    margin-bottom: 2rem;
+    margin-left: 3.5rem;
+  }
+  .button_repo{
+    margin-left: 6rem;
+  }
+ }
+
+ /* TABLETS */
+ @media screen and (min-width: 625px) and (max-width: 700px){
+  .card_projects{
+    margin: 2rem 5rem 2rem 7rem
+  }
+  .project_item{
+    padding-bottom: 2.5rem;
+  }
+  .button_repo{
+    margin-left: 13rem;
+  }
+  .projects_area p{
+    margin-left: 6rem;
+  }
+ }
+
+ /* DESKTOPS */
+ @media screen and (min-width: 725px) and (max-width: 800px){
+  .project_item button{
+    margin-bottom: 3rem;
+  }
+  .button_repo{
+    margin-left: 18rem;
+  }
+  .projects_area p{
+    width: 42rem;
+  }
+}
